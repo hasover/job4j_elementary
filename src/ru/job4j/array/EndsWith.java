@@ -5,7 +5,7 @@ public class EndsWith {
         /* проверить. что массив word имеет последние элементы одинаковые с post */
         int i;
         for (i = 0; i < post.length; i++) {
-            if (i >= word.length || word[word.length - 1 - i] != post[post.length - 1 - i]) {
+            if (word[word.length - 1 - i] != post[post.length - 1 - i]) {
                 break;
             }
         }
