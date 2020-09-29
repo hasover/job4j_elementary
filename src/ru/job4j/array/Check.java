@@ -5,12 +5,11 @@ public class Check {
         boolean result = data[0];
         int i;
         for (i = 1; i < data.length; i++) {
-            if (result != data[i]) {  // если пройдем весь массив, то он однородный
+            if (result != data[i]) {
                 break;
             }
-
         }
 
-        return (i == data.length); // прошли весь массив?
+        return (i == data.length);
     }
 }
